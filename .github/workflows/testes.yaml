@@ -1,0 +1,10 @@
+name: teste-projeto
+on: [push]
+jobs:
+  testandocodigo:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm install
+      - run: npm run test

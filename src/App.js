@@ -17,6 +17,7 @@ function App() {
 
   return (
     <>
+    {/* Chamando o estilo global */}
     <GlobalStyle/>
     <ContainerWrapper>
       <GridContianer container direction="column" spacing={6}>
